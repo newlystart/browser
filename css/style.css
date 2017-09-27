@@ -1,0 +1,424 @@
+html,body{
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-attachment: fixed;
+}
+section{
+position: relative;
+width: 100%;
+height: 100%;
+
+}
+section>div{
+position:relative;
+overflow:hidden;
+width: 100%;
+height: 100%;
+}
+.screen1{
+background:url('../images/bg01.jpg');
+background-size:100% 100%;
+}
+.screen2{
+background:url('../images/bg02.jpg');
+background-size:100% 100%;
+}
+.screen3{
+background:url('../images/bg03.jpg');
+background-size:100% 100%;
+}
+.screen4{
+background:url('../images/bg04.jpg');
+background-size:100% 100%;
+}
+.screen5{
+background:url('../images/bg05.jpg');
+background-size:100% 100%;
+}
+.screen6{
+background:url('../images/bg06.jpg');
+background-size:100% 100%;
+}
+.screen7{
+background:url('../images/bg07.jpg');
+background-size:100% 100%;
+}
+.logo{
+position:fixed;
+top:30px;
+left: 30px;
+z-index:1;
+}
+ /* 导航栏 */
+ol{
+position:fixed;
+top: 50%;
+right: 15px;
+margin-top: -124px;
+z-index:3;
+}
+ol li{
+width:20px;
+height:20px;
+border-radius: 50%;
+margin-bottom: 15px;
+border: 1px solid #d05e0a;
+}
+/* 音乐 */
+.pic{
+position:fixed;
+top: 40px;
+right:20px;
+width;40px;
+height:40px;
+z-index: 1;
+}
+.music{
+animation:ofo 3s infinite linear;
+}
+.nav{
+width:35px;
+height:35px;
+margin-left: -8px;
+border:none;
+background:url('../images/side_bg.png') no-repeat;
+background-size: 100%;
+animation:ofo 3s infinite linear;
+}
+@keyframes ofo{
+0%{
+transform:rotate(0) 
+}
+100%{
+transform:rotate(360deg) 
+}
+}
+/* .screen1 */
+.screen1 .yuan{
+position:absolute;
+bottom:500px;
+right:400px;
+animation:gogo 50s infinite linear;
+}
+.screen1 .yuan2{
+position:absolute;
+right:100px;
+bottom:600px;
+animation:gogo 60s infinite linear;
+}
+@keyframes gogo{
+0%{
+transform:translate(0px,0px)
+}
+100%{
+transform:translate(-800px,0px)
+}
+}
+ .logo2{
+position:absolute;
+bottom:255px;
+left:0px;
+width:100%;
+height:110px;
+text-align: center;
+z-index:1;
+
+}
+.logo2 span{
+transition:all 2s;
+display: inline-block;
+}
+.logo2 span:nth-of-type(1){
+height:50px;
+background:url('../images/logo-text.png') no-repeat left center;
+padding-right:22px; 
+}
+.on .logo2 span:nth-of-type(1){transform:translate(800px,0px)}
+.on .logo2 span:nth-of-type(2){transform:translate(-800px,0px)rotate(180deg)}
+.logo2 p{
+margin-top:10px;
+font-size:12px;
+line-height:20px;
+color:#fff;
+transition:all 2s;
+}
+.on .logo2 p{
+transform:rotate(360deg) scale(0.2)
+}
+ .ball{
+position:absolute;
+left:50%;
+bottom:360px;
+margin-left:-90px;
+animation:ball 15s infinite linear;
+}
+@keyframes ball{
+0%{
+transform:translate(0,0);
+}
+50%{
+transform:translate(0,-100px);
+}
+100%{
+transform:translate(0,0);
+}
+}
+/* screen2 */
+.screen2 .compa{
+position:absolute;
+left:50%;
+bottom:360px;
+margin-left:-90px;
+
+}
+.screen2 .compass{
+position:absolute;
+left:50%;
+bottom:388px;
+width: 100px;
+height:178px;
+margin-left:-50px;
+background:url('../images/compass-pointer.png') no-repeat center;
+z-index:3;
+animation:ofo 5s infinite linear;
+}
+/* screen3*/
+.screen3 .pao{
+position:absolute;
+left:50%;
+bottom:360px;
+margin-left:-90px;
+animation: pao 5s infinite linear;
+}
+.screen3 .pao img:nth-of-type(2){
+animation: pao 30s infinite linear;
+}
+.screen3 .pao img:nth-of-type(3){
+animation: pao 6s infinite linear;
+}
+.screen3 .pao img:nth-of-type(4){
+animation: pao 15s infinite linear;
+}
+.screen3 .pao img:nth-of-type(5){
+animation: pao 30s infinite linear;
+}
+.screen3 .pao img:nth-of-type(6){
+animation: pao 8s infinite linear;
+}
+.screen3 .pao img:nth-of-type(7){
+animation: pao 36s infinite linear;
+}
+.screen3 .pao img:nth-of-type(8){
+animation: pao 5s infinite linear;
+}
+.screen3 .pao img:nth-of-type(9){
+animation: pao 5s infinite linear;
+}
+@keyframes pao{
+0%{
+transform:translate(0,0);
+}
+100%{
+transform:translate(0,-150px);
+}
+}
+/* .screen4 */
+.screen4 h4{
+position:absolute;
+left:50%;
+bottom:360px;
+transform-origin:bottom center;
+margin-left:-130px;
+animation: ballon 5s infinite linear;
+transition:6s;
+z-index:5;
+}
+@keyframes ballon{
+0%{transform:rotate(0deg)
+}
+50%{transform:rotate(15deg)
+}
+100%{transform:rotate(0deg)
+}
+}
+.screen4 h4:hover{
+cursor: pointer;
+bottom:600px;
+left:30%;
+
+}
+
+/* .screen5 */
+.screen5 h2{
+position:absolute;
+left:50%;
+bottom:380px;
+margin-left:-115px;
+animation:pics 2s infinite linear;
+}
+@keyframes pics{
+0%{transform:scale(0.2)
+}
+100%{transform:scale(2.5)
+}
+}
+h3{
+position:absolute;
+right:150px;
+top:200px;
+animation:ball 45s infinite linear;
+}
+.screen5 h5{
+position:absolute;
+right:300px;
+bottom:200px;
+animation:ball 40s infinite linear;
+}
+.screen5 h6{
+position:absolute;
+right:80px;
+bottom:100px;
+animation:ball 60s infinite linear;
+}
+/* .screen6 */
+
+.screen6 h5{
+animation:app 40s infinite linear;
+}
+
+@keyframes app{
+0%{
+transform:translate(0,0);
+}
+100%{
+transform:translate(0,300px);
+}
+}
+.screen6 .ball{
+position:absolute;
+left:50%;
+bottom:200px;
+margin-left:-80px;
+animation:ball 40s infinite linear;
+}
+/* .screen7 */
+.screen7 .compass{
+position:absolute;
+left:50%;
+bottom:450px;
+margin-left:-92px;
+// background:url('../images/black-hole-light.png') no-repeat center;
+z-index:3;
+animation:ofo 15s infinite linear;
+}
+.screen7 .png{
+position:absolute;
+top: 0px;
+left:0px;
+animation:png 2s infinite linear;
+}
+@keyframes png{
+0%{
+transform:translate(0,0px);
+}
+100%{
+transform:translate(500px,100px);
+}
+}
+.screen7 .png2{
+position:absolute;
+top: 0px;
+right:0px;
+animation:png2 2s infinite linear;
+}
+@keyframes png2{
+0%{
+transform:translate(0,0px);
+}
+100%{
+transform:translate(-550px,100px);
+}
+}
+.screen7 .png3{
+position:absolute;
+bottom: 0px;
+left:0px;
+animation:png3 2s infinite linear;
+}
+@keyframes png3{
+0%{
+transform:translate(0,0px);
+}
+100%{
+transform:translate(500px,-500px);
+}
+}
+.screen7 .png4{
+position:absolute;
+bottom: 0px;
+right:0px;
+animation:png4 2s infinite linear;
+}
+@keyframes png4{
+0%{
+transform:translate(0,0px);
+}
+100%{
+transform:translate(-550px,-500px);
+}
+}
+
+/* 立即下载 */
+.logo3{
+position:fixed;
+bottom:140px;
+left:0px;
+width:100%;
+height:110px;
+text-align: center;
+z-index:2;
+}
+.logo3 p{
+font-size: 12px;
+color: #fff;
+font-weight: bold;
+}
+.bottom{
+position:fixed;
+left:0px;
+bottom:0px;
+width: 100%;
+height:65px;
+background:(0,0,0,0.6)
+}
+.bottom ul{
+width: 1000px;
+height:65px;
+margin:0px auto;
+}
+.bottom li a{
+float: left;
+width: 200px;
+height:65px;
+color:#fff;
+text-decoration: none;
+text-align:center;
+line-height: 65px;
+z-index:1;
+}
+.bottom li .bottom1:hover{
+background:#2bb4fa;
+}
+.bottom li .bottom2:hover{
+background:#f35246;
+}
+.bottom li .bottom3:hover{
+background:#21f330;
+}
+.bottom li .bottom4:hover{
+background:#f321e4;
+}
+.bottom li .bottom5:hover{
+background:yellow;
+}

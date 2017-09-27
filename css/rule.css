@@ -1,0 +1,115 @@
+/* 头部导航栏  */
+header {
+	width: 100%;
+	height: 70px;
+	box-shadow: 0px 0px 6px 0px;
+}
+
+header h1 i {
+	float: left;
+	width: 275px;
+	height: 30px;
+	padding-top: 25px;
+	background: url('../images/sprite.png') no-repeat -28px 20px;
+	display: inline-block;
+}
+
+.top {
+	width: 940px;
+	height: 70px;
+	margin: 0px auto;
+}
+
+.top ul {
+	width: 500px;
+	height: 70px;
+	float: left;
+}
+
+.top li a{
+	float: left;
+	width: 100px;
+	height: 70px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 70px;
+	color: #425766;
+    text-decoration:none;
+}
+.top .text{
+	color:red;
+	border-bottom: 3px solid red;
+}
+
+article {
+	width: 940px;
+	height: 260px;
+	line-height: 30px;
+	margin: 50px auto;
+}
+
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+article p{
+	font-size:14px;
+}
+
+section {
+	width: 940px;
+	height: 275px;
+	margin: 0px auto;
+}
+
+table th {
+	height: 65px;
+	font-weight: 700;
+	background: #ccc;
+	text-align: center;
+}
+
+tbody td {
+	height: 60px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	background: #eff3f6;
+}
+
+footer {
+	margin-top: 20px;
+	width:940px;
+	height: 340px;
+	line-height: 30px;
+	margin: 20px auto;
+}
+
+footer table {
+	width: 588px;
+	height: 338px;
+	background: red;
+}
+
+footer p {
+	font-size: 14px;
+	color: #666;
+	margin: 30px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

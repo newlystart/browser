@@ -1,0 +1,256 @@
+/* 头部导航栏  */
+header h1 i {
+	float: left;
+	width: 275px;
+	height: 30px;
+	padding-top: 25px;
+	background: url('../images/sprite.png') no-repeat -28px 20px;
+	display: inline-block;
+}
+
+.top {
+	width: 945px;
+	height: 70px;
+	margin: 0px auto;
+}
+
+.top ul {
+	width: 500px;
+	height: 70px;
+	float: left;
+}
+
+.top li a{
+	float: left;
+	width: 100px;
+	height: 70px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 70px;
+	color: #425766;
+    text-decoration:none;
+}
+ .top .text{
+	color:red;
+	border-bottom: 3px solid red;
+}
+
+
+nav {
+	width: 940px;
+	height: 218px;
+	margin: 10px auto;
+}
+
+nav .left {
+	float: left;
+	width: 180px;
+	height: 218px;
+	box-shadow: 0px 0px 15px 0px;
+	text-align: center;
+}
+
+nav .left  a {
+	width: 140px;
+	height: 42px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 42px;
+	text-decoration: none;
+	border-radius: 5px;
+	box-shadow: 0px 4px 12px 0px #ff5f19;
+	background: #ff5f19;
+	display: inline-block;
+	margin: 68px 10px 10px 10px;
+}
+
+nav .left p {
+	font-size: 14px;
+	color: #425766;
+	line-height: 65px;
+}
+
+nav .left span {
+	color: #ff5f19;
+}
+
+/* 无缝轮图 */
+nav .right {
+	position: relative;
+	float: right;
+	width: 737px;
+	height: 218px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.right span {
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	height: 60px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	margin-top: -30px;
+	background: #000;
+	opacity: 0.3;
+	z-index: 1;
+}
+
+.pren {
+	left: 15px;
+}
+
+.next {
+	right: 15px;
+}
+
+.right ol {
+	position: relative;
+	width: 9999px;
+}
+
+.right ol li {
+	float: left;
+}
+
+/* 内容 */
+article {
+	width: 940px;
+	height: 342px;
+	margin: 10px auto;
+}
+
+article .txt {
+	width: 200px;
+	height: 30px;
+	color: #425766;
+	padding: 15px;
+	display: inline-block;
+}
+
+article .pic {
+	width: 30px;
+	height: 15px;
+	display: inline-block;
+	background: url('../images/sprite1.png') no-repeat -251px -2117px;
+}
+
+article p .text {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+article ul {
+	width: 860px;
+	height: 236px;
+	margin: 0px auto;
+}
+
+article ul li {
+	position: relative;
+	float: left;
+	width: 255px;
+	height: 245px;
+	margin-left: 20px;
+	line-height: 35px;
+	text-align: center;
+	background: url('../images/circle.png') no-repeat center;
+	background-size: 234px;
+}
+
+article li .pci {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 38px;
+	height: 21px;
+	display: inline-block;
+	background: url('../images/sprite1.png') no-repeat -249px -2135px;
+}
+
+article .txt2 {
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	color: #425766;
+}
+
+article .txt2 span {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+article li .txt3 {
+	position: absolute;
+	left: 33%;
+	font-size:14px;
+	color: #425766;
+	line-height:20px;
+	bottom: 10px;
+}
+
+section {
+	width: 940px;
+	height: 342px;
+	margin: 10px auto;
+}
+
+section .txt {
+	width: 580px;
+	height: 30px;
+	color: #425766;
+	padding: 15px;
+	display: inline-block;
+}
+section .txt ul{
+	float:right;
+	width:380px;
+	height:38px;
+}
+section .txt li{
+	width:100px;
+	height:38px;
+	text-align:center;
+    float:left;
+}
+section .pic {
+	width: 30px;
+	height: 15px;
+	display: inline-block;
+	background: url('../images/sprite1.png') no-repeat -249px -2182px;
+}
+section ol{
+  width:865px;
+  height:200px;
+  margin:0px auto;
+  border-bottom: 1px solid #ccc;
+}
+section ol li{
+	position:relative;
+	float:left;
+	width:85px;
+	height:200px;
+	
+}
+section  li span{
+	position:absolute;
+	left:50%;
+	bottom:0px;
+	width:7px;
+	height:5px;
+	border-radius:5px 5px 0px 0px;
+	display:inline-block;
+	background:#3399fe;
+  
+}
+section  li p{
+	position:absolute;
+	text-align:center;
+	left:23%;
+	font-size:14px;
+	color:#ccc;
+	bottom:-30px;
+}

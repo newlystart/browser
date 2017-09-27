@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+          #div1{
+          	width:300px;
+          	height:300px;
+          	background:#ccc;
+          }
+        </style>
+        <script>
+        window.onload=function(){
+        	var div1=document.getElementById('div1');
+        	var text1=document.getElementById('text1');
+        	var but1=document.getElementById('but1');
+            var img1=document.getElementById('img1');
+            var arr=['img/1.png','img/2.png','img/3.png','img/4.png'];
+            var num=0;
+            img1.onclick=function(){
+            
+            	    num++;
+                 if(num==arr.length){
+                	num=0;
+                }
+                img1.scr=arr[num]
+            }
+            but1.onclick=function(){
+            	div1.innerHTML+=img1.src+text1.value+'<br>';
+            	text1.value=''
+            }
+        	}
+        </script>
+    </head>
+    <body>
+    <div id="div1"></div>
+    <img src="img/1.png" alt="" id="img1">:
+    <input type="text" id="text1">
+    <input type="button" value="提交" id="but1">
+    </body>
+</html>
