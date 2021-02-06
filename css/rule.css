@@ -85,7 +85,7 @@ footer {
 }
 
 footer table {
-	width: 588px;
+	width: 100%;
 	height: 338px;
 	background: red;
 }
